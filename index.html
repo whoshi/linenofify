@@ -8,25 +8,25 @@
  -->
   <link rel="stylesheet" type="text/css" href="logger.css">  
   </head>
-  <body>
+  <body font-size: 50px;>
    <?!= HtmlService.createHtmlOutputFromFile('css').getContent(); ?><!--注目-->
   <table class="alert">
-  <tr class="alertc" font-size: 70px;>
+  <tr class="alertc">
     <th>発生時刻</th>
     <th>エラー内容</th>
     <th>ロガー番号</th>
   </tr>
-  <tr class="alertc" font-size: 70px;>
+  <tr class="alertc">
     <td>2020/07/15<br> 10:10:05</td>
     <td>温度下限警報<br>下限:20℃</td>
     <td>受信機001</td>
   </tr>
   </table>
-  <div font-size: 70px;>  
+ 
   直近６データ計測値
-    </div>  
+
   <table  class="data">
-   <tr class="datac" font-size: 70px;>
+   <tr class="datac">
     <th>発生時刻</th>
     <th>計測値</th>
   <tr class="datac">
