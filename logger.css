@@ -1,4 +1,6 @@
- {font-size: 150%; }
+BODY{
+ font-size: 50pt;
+}
 table.alert{
   width: 400px;
   height: 50px; 
