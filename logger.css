@@ -1,4 +1,10 @@
-
+table.alert{
+  width: 400px;
+  height: 50px; 
+  border-collapse:separate; 
+  border-spacing: 0; 
+ 
+} 
 table.alert th:first-child{
   border-radius: 5px 0 0 0; 
 }
