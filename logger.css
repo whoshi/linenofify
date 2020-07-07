@@ -3,7 +3,7 @@ table.alert{
   height: 50px;
   border-collapse:separate;
   border-spacing: 0;
-  font-size:45px;        
+  font-size:200px;        
 }
 
 table.alert th:first-child{
