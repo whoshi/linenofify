@@ -3,18 +3,18 @@ table.alert{
   height: 50px;
   border-collapse:separate;
   border-spacing: 0;
-  font-size:45px;        
+          
 }
 
 table.alert th:first-child{
   border-radius: 5px 0 0 0;
-  font-size:45px;        
+        
 }
 
 table.alert th:last-child{
   border-radius: 0 5px 0 0;
   border-right: 1px solid #3c6690;
-  font-size:45px;
+  
 }
 
 table.alert th{
@@ -27,7 +27,7 @@ table.alert th{
   box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
   width: 10%
   padding: 30px 0;
-  font-size:45px;
+  
 }
 
 table.alert td{
@@ -38,40 +38,40 @@ table.alert td{
   box-shadow: 0px -3px 5px 1px #eee inset;
   width: 10%
   padding: 30px 0;
-  font-size:45px;
+  
 }
 
 table.alert td:last-child{
   border-right: 1px solid #a8b7c5;
-  font-size:45px;
+  
 }
 
 table.alert t.alertcr:last-child td:first-child {
   border-radius: 0 0 0 5px;
-  font-size:45px;
+  
 }
 
 table.alert tr.alertc:last-child td:last-child {
   border-radius: 0 0 5px 0;
-  font-size:45px;
+  
 }
 table.data{
   width: 400px;
   height: 3px;
   border-collapse:separate;
   border-spacing: 0;
-  font-size:45px;
+  
 }
 
 table.data th:first-child{
   border-radius: 5px 0 0 0;
-  font-size:45px;
+  
 }
 
 table.data th:last-child{
   border-radius: 0 5px 0 0;
   border-right: 1px solid #3c6690;
-  font-size:45px;
+  
 }
 
 table.data th{
@@ -84,7 +84,7 @@ table.data th{
   box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
   width: 50px;
   padding: 10px 0;
-  font-size:45px;
+  
 }
 
 table.data td{
@@ -95,20 +95,20 @@ table.data td{
   box-shadow: 0px -3px 5px 1px #eee inset;
   width: 50px;
   padding: 10px 0;
-  font-size:45px;
+  
 }
 
 table.data td:last-child{
   border-right: 1px solid #a8b7c5;
-  font-size:45px;
+  
 }
 
 table.data t.alertcr:last-child td:first-child {
   border-radius: 0 0 0 5px;
-  font-size:45px;
+  
 }
 
 table.data tr.alertc:last-child td:last-child {
   border-radius: 0 0 5px 0;
-  font-size:45px;
+ 
 }
