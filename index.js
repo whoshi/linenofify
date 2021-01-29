@@ -84,8 +84,9 @@ $(function ()
 				datecurrent.getSeconds() + "秒";
         
      //GAS側Postイベントエントリ
-      var url = 'https://script.google.com/macros/s/AKfycbyZCPemsZEO01buDDevsEWfs8LbvTIIJdGBHMyNi-HW9l9sK4E/exec'
-      
+      //var url = 'https://script.google.com/macros/s/AKfycbyZCPemsZEO01buDDevsEWfs8LbvTIIJdGBHMyNi-HW9l9sK4E/exec'
+      //https://script.google.com/macros/s/AKfycbwcp4qIFaZHW5Jnkhgg8QJji2JhZaFXq3NwLPmOIB2sABABkNq3/exec
+      var url = 'https://script.google.com/macros/s/AKfycbwcp4qIFaZHW5Jnkhgg8QJji2JhZaFXq3NwLPmOIB2sABABkNq3/exec'
       liff.getProfile().then
       (profile => 
         {
@@ -104,7 +105,7 @@ $(function ()
                  //スピナー表示
                  //インジケータ表示
                  // Loading 画像を表示
-                 dispLoading("ロボホンに送信中...");
+                 dispLoading("ほんやく実行中...");
 
                  $.post(url,
                         JSONdata,
@@ -115,7 +116,7 @@ $(function ()
                            removeLoading();
 	                   if(dt.message == 'success!')
 	                   {
-                               sendText(inputdata);//To LINE 送信
+                               sendText(dt.result);//To LINE 送信
 	                       liff.closeWindow(); 
 	                   }else
 	                   {
