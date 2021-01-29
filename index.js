@@ -119,7 +119,7 @@ $(function ()
 	                       liff.closeWindow(); 
 	                   }else
 	                   {
-		               window.alert("他の人が操作中です、少し待って再実行して下さい");  
+		               window.alert("すみません、失敗しました。");  
                            }
 	                }
                  );
