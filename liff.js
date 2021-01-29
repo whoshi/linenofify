@@ -48,7 +48,7 @@ function sendMessages(text) {
       "contents": [
         {
           "type": "text",
-          "text": "ロボホンに送信しました",
+          "text": "ほんやく結果です",
           "size": "lg",
           "align": "center",
           "weight": "bold",
